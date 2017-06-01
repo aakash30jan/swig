@@ -1,0 +1,28 @@
+#ifndef __LIBINHERIT_GW_H__
+#define __LIBINHERIT_GW_H__
+
+#include "c_gateway_prototype.h"
+
+STACK_GATEWAY_PROTOTYPE(SWIG_ptr);
+STACK_GATEWAY_PROTOTYPE(SWIG_this);
+STACK_GATEWAY_PROTOTYPE(_wrap_Circle_get_perimeter);
+STACK_GATEWAY_PROTOTYPE(_wrap_Circle_radius_get);
+STACK_GATEWAY_PROTOTYPE(_wrap_Circle_radius_set);
+STACK_GATEWAY_PROTOTYPE(_wrap_Shape_get_perimeter);
+STACK_GATEWAY_PROTOTYPE(_wrap_Shape_set_location);
+STACK_GATEWAY_PROTOTYPE(_wrap_Shape_x_get);
+STACK_GATEWAY_PROTOTYPE(_wrap_Shape_x_set);
+STACK_GATEWAY_PROTOTYPE(_wrap_Shape_y_get);
+STACK_GATEWAY_PROTOTYPE(_wrap_Shape_y_set);
+STACK_GATEWAY_PROTOTYPE(_wrap_Square_get_perimeter);
+STACK_GATEWAY_PROTOTYPE(_wrap_Square_size_get);
+STACK_GATEWAY_PROTOTYPE(_wrap_Square_size_set);
+STACK_GATEWAY_PROTOTYPE(_wrap_delete_Circle);
+STACK_GATEWAY_PROTOTYPE(_wrap_delete_Shape);
+STACK_GATEWAY_PROTOTYPE(_wrap_delete_Square);
+STACK_GATEWAY_PROTOTYPE(_wrap_new_Circle);
+STACK_GATEWAY_PROTOTYPE(_wrap_new_Shape);
+STACK_GATEWAY_PROTOTYPE(_wrap_new_Square);
+STACK_GATEWAY_PROTOTYPE(inherit_Init);
+
+#endif /* __LIBINHERIT_GW_H__ */
